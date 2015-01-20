@@ -1,1 +1,1 @@
-include ':sample', ':responsive-appcompat'
+include ':sample'

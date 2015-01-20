@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FixedToolbar</string>
+    <!-- General -->
+    <string name="app_name">Responsive Toolbar</string>
+    <string name="responsive_title">Responsive</string>
+    <string name="default_title">Default</string>
     <string name="title">Title</string>
 
     <!-- Actions -->
@@ -11,7 +14,10 @@
     <string name="action_search">Search</string>
 
     <!-- Buttons -->
-    <string name="b_action_view">Action View</string>
+    <string name="b_start_default">Start Default</string>
+
+    <!-- Edit Text -->
+    <string name="t_write_sth">Write something&#8230; and long press it</string>
 
 
 </resources>
