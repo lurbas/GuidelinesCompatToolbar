@@ -3,6 +3,8 @@ package com.lucasurbas.fixedtoolbar.activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 
 import com.lucasurbas.fixedtoolbar.R;
@@ -36,15 +38,20 @@ public class DefaultToolbarActivity extends ActionBarActivity {
         });
 
         Toolbar toolbar3 = (Toolbar) findViewById(R.id.toolbar_3);
-        toolbar3.inflateMenu(R.menu.test_overflow_menu);
+        toolbar3.inflateMenu(R.menu.test_menu);
 
-        Toolbar toolbar4 = (Toolbar) findViewById(R.id.toolbar_4);
-        toolbar4.inflateMenu(R.menu.test_menu);
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
         overridePendingTransition(0, 0);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.test_overflow_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 }

@@ -40,10 +40,7 @@ public class ResponsiveToolbarActivity extends ActionBarActivity {
         });
 
         Toolbar toolbar3 = (Toolbar) findViewById(R.id.toolbar_3);
-        toolbar3.inflateMenu(R.menu.test_overflow_menu);
-
-        Toolbar toolbar4 = (Toolbar) findViewById(R.id.toolbar_4);
-        toolbar4.inflateMenu(R.menu.test_menu);
+        toolbar3.inflateMenu(R.menu.test_menu);
 
         Button bStart = (Button) findViewById(R.id.bStart);
         bStart.setOnClickListener(new View.OnClickListener() {

@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
+        android:layout_marginTop="16dp"
         android:elevation="6dp"
         android:background="@color/colorPrimary"
         app:navigationIcon="@drawable/ic_menu_white_24dp"
@@ -37,17 +38,6 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_3"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_marginTop="16dp"
-        android:elevation="6dp"
-        android:background="@color/colorPrimary"
-        app:theme="@style/Toolbar.AppCompat.Responsive"
-        app:title="@string/responsive_title"
-        app:popupTheme="@style/Toolbar.Popup.AppCompat" />
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_4"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_marginTop="16dp"

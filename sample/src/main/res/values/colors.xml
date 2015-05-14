@@ -3,7 +3,7 @@
 
     <color name="colorPrimary">#795548</color>
     <color name="colorPrimaryDark">#5D4037</color>
-    <color name="colorPrimaryInverse">#388E3C</color>
+    <color name="colorActionMode">#90CAF9</color>
 
     <color name="white">#FFFFFF</color>
     <color name="white_highlight">#66FFFFFF</color>
