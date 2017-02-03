@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:elevation="6dp"
         android:background="@color/colorPrimary"
-        app:navigationIcon="@drawable/ic_menu_white_24dp"
+        app:navigationIcon="@drawable/ic_menu_24dp"
         app:theme="@style/Toolbar.AppCompat.Default"
         app:popupTheme="@style/Toolbar.Popup.AppCompat"
         app:title="@string/default_title"/>
@@ -29,7 +29,7 @@
         android:background="@color/colorPrimary"
         app:theme="@style/Toolbar.AppCompat.Default"
         app:popupTheme="@style/Toolbar.Popup.AppCompat"
-        app:navigationIcon="@drawable/ic_menu_white_24dp"
+        app:navigationIcon="@drawable/ic_menu_24dp"
         app:title="@string/default_title" />
 
     <android.support.v7.widget.Toolbar
