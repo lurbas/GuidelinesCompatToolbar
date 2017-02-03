@@ -1,21 +1,18 @@
-package com.lucasurbas.fixedtoolbar.activity;
+package com.lucasurbas.responsivetoolbar.activity;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 
-import com.lucasurbas.fixedtoolbar.R;
+import com.lucasurbas.responsivetoolbar.R;
 
-/**
- * Created by Lucas on 1/20/15.
- */
-public class DefaultToolbarActivity extends ActionBarActivity {
+public class DefaultToolbarActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_default_toolbar);
 
