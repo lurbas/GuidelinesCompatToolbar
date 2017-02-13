@@ -15,7 +15,6 @@
         android:elevation="6dp"
         android:background="@color/colorPrimary"
         app:navigationIcon="@drawable/ic_menu_24dp"
-        app:contentInsetStart="@dimen/second_keyline"
         app:theme="@style/Toolbar.AppCompat.Responsive"
         app:popupTheme="@style/Toolbar.Popup.AppCompat"
         app:title="@string/responsive_title"
@@ -32,7 +31,6 @@
         app:theme="@style/Toolbar.AppCompat.Responsive"
         app:popupTheme="@style/Toolbar.Popup.AppCompat"
         app:navigationIcon="@drawable/ic_menu_24dp"
-        app:contentInsetStart="@dimen/second_keyline"
         app:title="@string/responsive_title"
         tools:ignore="NewApi" />
 
