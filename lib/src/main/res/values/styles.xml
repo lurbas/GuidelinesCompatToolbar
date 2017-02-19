@@ -1,28 +1,28 @@
 <resources>
 
-    <style name="Custom.Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
-
+    <style name="Widget.GuidelinesCompat.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">@dimen/first_keyline</item>
         <item name="maxButtonHeight">48dp</item>
         <item name="android:paddingLeft">@dimen/toolbar_h_padding</item>
         <item name="android:paddingRight">@dimen/toolbar_h_padding</item>
 
     </style>
 
-    <style name="Custom.Widget.Toolbar.Button.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+    <style name="Widget.GuidelinesCompat.Toolbar.Button.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
         <item name="android:minWidth">48dp</item>
     </style>
 
-    <style name="Custom.Widget.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+    <style name="Widget.GuidelinesCompat.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
         <item name="android:paddingLeft">0dp</item>
         <item name="android:paddingRight">0dp</item>
     </style>
 
-    <style name="Custom.Widget.ActionMode" parent="Widget.AppCompat.ActionMode">
+    <style name="Widget.GuidelinesCompat.ActionMode" parent="Widget.AppCompat.ActionMode">
         <item name="android:paddingLeft">@dimen/toolbar_h_padding</item>
         <item name="android:paddingRight">@dimen/toolbar_h_padding</item>
     </style>
 
-    <style name="Custom.Widget.ActionButton.CloseMode" parent="Widget.AppCompat.ActionButton.CloseMode">
+    <style name="Widget.GuidelinesCompat.ActionButton.CloseMode" parent="Widget.AppCompat.ActionButton.CloseMode">
         <item name="android:layout_marginRight">20dp</item>
         <item name="android:minWidth">48dp</item>
     </style>

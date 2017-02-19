@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Widget.GuidelinesCompat.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+</resources>

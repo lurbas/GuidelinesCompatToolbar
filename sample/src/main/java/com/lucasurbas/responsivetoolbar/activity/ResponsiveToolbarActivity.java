@@ -4,11 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
 import com.lucasurbas.responsivetoolbar.R;
 
 public class ResponsiveToolbarActivity extends AppCompatActivity {
@@ -38,6 +39,37 @@ public class ResponsiveToolbarActivity extends AppCompatActivity {
 
         Toolbar toolbar3 = (Toolbar) findViewById(R.id.toolbar_3);
         toolbar3.inflateMenu(R.menu.test_menu);
+
+        Button bActionMode = (Button) findViewById(R.id.bActionMode);
+        bActionMode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActionMode(new ActionMode.Callback() {
+                    @Override
+                    public boolean onCreateActionMode(final ActionMode mode, final Menu menu) {
+                        mode.setTitle(R.string.action_mode_title);
+                        MenuInflater inflater = getMenuInflater();
+                        inflater.inflate(R.menu.test_overflow_menu, menu);
+                        return true;
+                    }
+
+                    @Override
+                    public boolean onPrepareActionMode(final ActionMode mode, final Menu menu) {
+                        return false;
+                    }
+
+                    @Override
+                    public boolean onActionItemClicked(final ActionMode mode, final MenuItem item) {
+                        return false;
+                    }
+
+                    @Override
+                    public void onDestroyActionMode(final ActionMode mode) {
+
+                    }
+                });
+            }
+        });
 
         Button bStart = (Button) findViewById(R.id.bStart);
         bStart.setOnClickListener(new View.OnClickListener() {

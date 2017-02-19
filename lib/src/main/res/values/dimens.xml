@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="first_keyline">16dp</dimen>
+    <dimen name="second_keyline">72dp</dimen>
+    <!-- Toolbar horizontal padding -->
+    <dimen name="toolbar_h_padding">4dp</dimen>
+</resources>

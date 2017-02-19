@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  -->
+    <!--  -->
+    <!-- Guidelines compat application theme. -->
+    <!--  -->
+    <!--  -->
+
+    <style name="Theme.GuidelinesCompat.Light.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <!-- Actionbar styles -->
+        <!--
+        <item name="actionBarTheme">@style/ThemeOverlay.GuidelinesCompat.Dark.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+        -->
+
+        <!-- Action Mode styles -->
+        <item name="actionModeStyle">@style/Widget.GuidelinesCompat.ActionMode</item>
+        <item name="actionModeBackground">?colorAccent</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.CloseMode</item>
+
+        <!-- Toolbar styles -->
+        <item name="toolbarStyle">@style/Widget.GuidelinesCompat.Toolbar</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.GuidelinesCompat.Toolbar.Button.Navigation</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.Overflow</item>
+
+    </style>
+
+    <style name="ThemeOverlay.GuidelinesCompat.Dark.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="colorControlHighlight">?colorAccent</item>
+        <item name="colorControlNormal">@android:color/white</item>
+
+    </style>
+
+</resources>

@@ -9,7 +9,7 @@
         <activity
             android:name=".activity.ResponsiveToolbarActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.AppCompat.Responsive">
+            android:theme="@style/Theme.Responsive">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -18,7 +18,7 @@
         <activity
             android:name=".activity.DefaultToolbarActivity"
             android:label="@string/default_title"
-            android:theme="@style/AppTheme.AppCompat.Default"/>
+            android:theme="@style/Theme.Default"/>
     </application>
 
 </manifest>
