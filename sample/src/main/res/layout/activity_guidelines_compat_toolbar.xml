@@ -17,7 +17,7 @@
         app:navigationIcon="@drawable/ic_menu_24dp"
         app:popupTheme="@style/Theme.Popup"
         app:theme="@style/Theme.Responsive.Toolbar"
-        app:title="@string/responsive_title" />
+        app:title="@string/guidelined_title" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_2"
@@ -30,7 +30,7 @@
         app:navigationIcon="@drawable/ic_menu_24dp"
         app:popupTheme="@style/Theme.Popup"
         app:theme="@style/Theme.Responsive.Toolbar"
-        app:title="@string/responsive_title" />
+        app:title="@string/guidelined_title" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_3"
@@ -41,7 +41,7 @@
         android:elevation="6dp"
         app:popupTheme="@style/Theme.Popup"
         app:theme="@style/Theme.Responsive.Toolbar"
-        app:title="@string/responsive_title" />
+        app:title="@string/guidelined_title" />
 
     <Button
         android:id="@+id/bActionMode"

@@ -1,5 +1,6 @@
-package com.lucasurbas.responsivetoolbar.activity;
+package com.lucasurbas.guidelinescompat.sample.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -9,14 +10,15 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import com.lucasurbas.responsivetoolbar.R;
+import com.lucasurbas.guidelinescompat.sample.R;
 
-public class DefaultToolbarActivity extends AppCompatActivity {
+public class GuidelinesCompatToolbarActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_default_toolbar);
+        setContentView(R.layout.activity_guidelines_compat_toolbar);
+        getSupportActionBar().setTitle(R.string.guidelined_title);
 
         final Toolbar toolbar1 = (Toolbar) findViewById(R.id.toolbar_1);
         toolbar1.inflateMenu(R.menu.test_overflow_menu);
@@ -69,12 +71,16 @@ public class DefaultToolbarActivity extends AppCompatActivity {
                 });
             }
         });
-    }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        overridePendingTransition(0, 0);
+        Button bStart = (Button) findViewById(R.id.bStart);
+        bStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(GuidelinesCompatToolbarActivity.this, DefaultToolbarActivity.class);
+                startActivity(i);
+                overridePendingTransition(0, 0);
+            }
+        });
     }
 
     @Override

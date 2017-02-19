@@ -2,8 +2,8 @@
 <resources>
 
     <!-- General -->
-    <string name="app_name">Responsive Toolbar</string>
-    <string name="responsive_title">Responsive</string>
+    <string name="app_name">Toolbar</string>
+    <string name="guidelined_title">Guidelined</string>
     <string name="default_title">Default</string>
     <string name="action_mode_title">Action Mode</string>
     <string name="title">Title</string>
@@ -17,9 +17,6 @@
     <!-- Buttons -->
     <string name="b_start_default">Start Default</string>
     <string name="b_action_mode">Action Mode</string>
-
-    <!-- Edit Text -->
-    <string name="t_write_sth">Write something&#8230; and long press it</string>
 
 
 </resources>
