@@ -39,7 +39,7 @@
     <!--  -->
     <!--  -->
 
-    <style name="Theme.Responsive" parent="Theme.GuidelinesCompat.Light.DarkActionBar">
+    <style name="Theme.GuidelinesCompat" parent="Theme.GuidelinesCompat.Light.ColoredToolbar">
 
         <item name="windowActionModeOverlay">true</item>
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -49,12 +49,11 @@
         <item name="actionModeBackground">@color/colorAccent</item>
 
         <!-- Actionbar styles -->
-        <item name="actionBarTheme">@style/Theme.Responsive.Toolbar</item>
-        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/Theme.GuidelinesCompat.Toolbar</item>
 
     </style>
 
-    <style name="Theme.Responsive.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <style name="Theme.GuidelinesCompat.Toolbar" parent="Theme.GuidelinesCompat.ColoredToolbar">
 
         <item name="colorControlHighlight">@color/colorAccent</item>
         <item name="colorControlNormal">@color/white</item>
