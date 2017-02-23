@@ -19,12 +19,18 @@
         <!-- Action Mode styles -->
         <item name="actionModeStyle">@style/Widget.GuidelinesCompat.ActionMode</item>
         <item name="actionModeBackground">?colorAccent</item>
-        <item name="actionModeCloseButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.CloseMode</item>
+        <item name="actionModeCloseButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.CloseMode
+        </item>
 
         <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.GuidelinesCompat.Toolbar</item>
-        <item name="toolbarNavigationButtonStyle">@style/Widget.GuidelinesCompat.Toolbar.Button.Navigation</item>
-        <item name="actionOverflowButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.Overflow</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.GuidelinesCompat.Toolbar.Button.Navigation
+        </item>
+        <item name="actionOverflowButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.Overflow
+        </item>
 
     </style>
 
@@ -40,12 +46,18 @@
         <!-- Action Mode styles -->
         <item name="actionModeStyle">@style/Widget.GuidelinesCompat.ActionMode</item>
         <item name="actionModeBackground">?colorAccent</item>
-        <item name="actionModeCloseButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.CloseMode</item>
+        <item name="actionModeCloseButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.CloseMode
+        </item>
 
         <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.GuidelinesCompat.Toolbar</item>
-        <item name="toolbarNavigationButtonStyle">@style/Widget.GuidelinesCompat.Toolbar.Button.Navigation</item>
-        <item name="actionOverflowButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.Overflow</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.GuidelinesCompat.Toolbar.Button.Navigation
+        </item>
+        <item name="actionOverflowButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.Overflow
+        </item>
 
     </style>
 
@@ -64,12 +76,18 @@
         <!-- Action Mode styles -->
         <item name="actionModeStyle">@style/Widget.GuidelinesCompat.ActionMode</item>
         <item name="actionModeBackground">?colorAccent</item>
-        <item name="actionModeCloseButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.CloseMode</item>
+        <item name="actionModeCloseButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.CloseMode
+        </item>
 
         <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.GuidelinesCompat.Toolbar</item>
-        <item name="toolbarNavigationButtonStyle">@style/Widget.GuidelinesCompat.Toolbar.Button.Navigation</item>
-        <item name="actionOverflowButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.Overflow</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.GuidelinesCompat.Toolbar.Button.Navigation
+        </item>
+        <item name="actionOverflowButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.Overflow
+        </item>
 
     </style>
 
@@ -85,20 +103,26 @@
         <!-- Action Mode styles -->
         <item name="actionModeStyle">@style/Widget.GuidelinesCompat.ActionMode</item>
         <item name="actionModeBackground">?colorAccent</item>
-        <item name="actionModeCloseButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.CloseMode</item>
+        <item name="actionModeCloseButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.CloseMode
+        </item>
 
         <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.GuidelinesCompat.Toolbar</item>
-        <item name="toolbarNavigationButtonStyle">@style/Widget.GuidelinesCompat.Toolbar.Button.Navigation</item>
-        <item name="actionOverflowButtonStyle">@style/Widget.GuidelinesCompat.ActionButton.Overflow</item>
+        <item name="toolbarNavigationButtonStyle">
+            @style/Widget.GuidelinesCompat.Toolbar.Button.Navigation
+        </item>
+        <item name="actionOverflowButtonStyle">
+            @style/Widget.GuidelinesCompat.ActionButton.Overflow
+        </item>
 
     </style>
 
     <!--  Theme: LightToolbar -->
-    <style name="Theme.GuidelinesCompat.LightToolbar" parent="ThemeOverlay.AppCompat.ActionBar"/>
+    <style name="Theme.GuidelinesCompat.LightToolbar" parent="ThemeOverlay.AppCompat.ActionBar" />
 
     <!--  Theme: DarkToolbar -->
-    <style name="Theme.GuidelinesCompat.DarkToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.GuidelinesCompat.DarkToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <!--  Theme: ColoredToolbar -->
     <style name="Theme.GuidelinesCompat.ColoredToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>

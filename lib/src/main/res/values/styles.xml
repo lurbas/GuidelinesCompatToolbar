@@ -27,4 +27,8 @@
         <item name="android:minWidth">48dp</item>
     </style>
 
+    <style name="Widget.GuidelinesCompat.SearchView.ActionBar" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="layout">@layout/glc_widget_search_view</item>
+    </style>
+
 </resources>
