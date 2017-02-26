@@ -6,7 +6,7 @@ ext {
 
     publishedGroupId = 'com.lucasurbas'
     libraryName = 'GuidelinesCompatToolbar'
-    artifact = 'guidelinescompat'
+    artifact = 'guidelinescompattoolbar'
 
     libraryDescription = 'Toolbar styles to achieve layout compatible with Material Design guidelines'
 
