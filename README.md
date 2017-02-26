@@ -5,22 +5,63 @@ You can read more about it on blog post https://medium.com/@lucasurbas/making-an
 
 
 ### Download
-
+```sh
     dependencies {
         compile 'com.lucasurbas:guidelinescompattoolbar:1.0.0'
     }
+```
    
 ### Usage
-Make sure your Application Theme extends one of Theme.GuidelinesCompat
+Make your Application Theme extends one of Theme.GuidelinesCompat
 - Theme.GuidelinesCompat.Light.DarkToolbar
 - Theme.GuidelinesCompat.Light.LightToolbar
 - Theme.GuidelinesCompat.Light.ColoredToolbar
 - Theme.GuidelinesCompat.Dark.DarkToolbar
 
-    dependencies {
+```sh
+    <style name="Theme.MyApp" parent="Theme.GuidelinesCompat.Light.DarkToolbar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        ...
+
+    </style>
+```
+Add toolbar Theme which extends one of Theme.GuidelinesCompat.Toolbar
+- Theme.GuidelinesCompat.LightToolbar
+- Theme.GuidelinesCompat.ColoredToolbar
+- Theme.GuidelinesCompat.DarkToolbar
+```sh
+    <style name="Theme.MyApp.Toolbar" parent="Theme.GuidelinesCompat.DarkToolbar">
+
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        ...
+
+    </style>
+```
+If your App uses ActionBar, specify newly created theme
+```sh
+    <style name="Theme.MyApp" parent="Theme.GuidelinesCompat.Light.DarkToolbar">
     
-        compile 'com.lucasurbas:guidelinescompattoolbar:1.0.0'
-    }
+        ...
+        <!-- Actionbar theme -->
+        <item name="actionBarTheme">@style/Theme.MyApp.Toolbar</item>
+        ...
+
+    </style>
+```
+If your App uses standalone Toolbar in layout file, make sure to connect newly created theme
+```sh
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        ...
+        app:theme="@style/Theme.MyApp.Toolbar" />
+```
 
 ### License
 
