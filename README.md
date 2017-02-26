@@ -9,6 +9,18 @@ You can read more about it on blog post https://medium.com/@lucasurbas/making-an
     dependencies {
         compile 'com.lucasurbas:guidelinescompattoolbar:1.0.0'
     }
+   
+### Usage
+Make sure your Application Theme extends one of Theme.GuidelinesCompat
+- Theme.GuidelinesCompat.Light.DarkToolbar
+- Theme.GuidelinesCompat.Light.LightToolbar
+- Theme.GuidelinesCompat.Light.ColoredToolbar
+- Theme.GuidelinesCompat.Dark.DarkToolbar
+
+    dependencies {
+    
+        compile 'com.lucasurbas:guidelinescompattoolbar:1.0.0'
+    }
 
 ### License
 
