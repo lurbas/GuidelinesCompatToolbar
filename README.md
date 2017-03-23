@@ -1,10 +1,12 @@
 # GuidelinesCompatToolbar
+[![Build Status](https://travis-ci.org/lurbas/GuidelinesCompatToolbar.svg?branch=master)](https://travis-ci.org/lurbas/GuidelinesCompatToolbar)
+
 Application and Toolbar styles to achieve layout compatible with Material Design guidelines.
 
 You can read more about it on blog post https://medium.com/@lucasurbas/making-android-toolbar-responsive-2627d4e07129
 
 
-### Download
+### Download (JCenter)
 ```sh
 dependencies {
     compile 'com.lucasurbas:guidelinescompattoolbar:1.0.0'
