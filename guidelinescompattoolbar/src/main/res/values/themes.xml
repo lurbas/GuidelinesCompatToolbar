@@ -34,6 +34,14 @@
 
     </style>
 
+    <!--  Theme: Light.DarkToolbar.NoActionbar -->
+    <style name="Theme.GuidelinesCompat.Light.DarkToolbar.NoActionbar" parent="Theme.GuidelinesCompat.Light.DarkToolbar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
     <!--  Theme: Light.LightToolbar -->
     <style name="Theme.GuidelinesCompat.Light.LightToolbar" parent="Theme.AppCompat.Light">
 
@@ -58,6 +66,14 @@
         <item name="actionOverflowButtonStyle">
             @style/Widget.GuidelinesCompat.ActionButton.Overflow
         </item>
+
+    </style>
+
+    <!--  Theme: Light.LightToolbar.NoActionbar -->
+    <style name="Theme.GuidelinesCompat.Light.LightToolbar.NoActionbar" parent="Theme.GuidelinesCompat.Light.LightToolbar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
 
     </style>
 
@@ -91,8 +107,16 @@
 
     </style>
 
+    <!--  Theme: Light.ColoredToolbar.NoActionbar -->
+    <style name="Theme.GuidelinesCompat.Light.ColoredToolbar.NoActionbar" parent="Theme.GuidelinesCompat.Light.ColoredToolbar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
     <!--  Theme: Dark.DarkToolbar -->
-    <style name="Theme.GuidelinesCompat.Dark.DarkToolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.GuidelinesCompat.Dark.DarkToolbar" parent="Theme.AppCompat">
 
         <item name="windowActionModeOverlay">true</item>
 
@@ -115,6 +139,14 @@
         <item name="actionOverflowButtonStyle">
             @style/Widget.GuidelinesCompat.ActionButton.Overflow
         </item>
+
+    </style>
+
+    <!--  Theme: Dark.DarkToolbar.NoActionbar -->
+    <style name="Theme.GuidelinesCompat.Dark.DarkToolbar.NoActionbar" parent="Theme.GuidelinesCompat.Dark.DarkToolbar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
 
     </style>
 
