@@ -9,19 +9,19 @@ You can read more about it on blog post https://medium.com/@lucasurbas/making-an
 ### Download (JCenter)
 ```sh
 dependencies {
-    compile 'com.lucasurbas:guidelinescompattoolbar:1.0.0'
+    compile 'com.lucasurbas:guidelinescompattoolbar:1.0.2'
 }
 ```
    
 ### Usage
-Make your Application Theme extends one of Theme.GuidelinesCompat
+Make your Application Theme extends one of Theme.GuidelinesCompat.NoActionbar
 - Theme.GuidelinesCompat.Light.DarkToolbar
 - Theme.GuidelinesCompat.Light.LightToolbar
 - Theme.GuidelinesCompat.Light.ColoredToolbar
 - Theme.GuidelinesCompat.Dark.DarkToolbar
 
 ```sh
-<style name="Theme.MyApp" parent="Theme.GuidelinesCompat.Light.DarkToolbar">
+<style name="Theme.MyApp" parent="Theme.GuidelinesCompat.Light.DarkToolbar.NoActionbar">
 
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
