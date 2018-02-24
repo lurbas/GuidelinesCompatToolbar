@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/lurbas/GuidelinesCompatToolbar'
     gitUrl = 'https://github.com/lurbas/GuidelinesCompatToolbar.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.2'
 
     developerId = 'lurbas'
     developerName = 'Lucas Urbas'
@@ -32,7 +32,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0.1"
+        versionName "1.0.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
